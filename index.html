@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Calculator app using Java Script</title>
+        <link rel= "stylesheet" type="text/css" href="css/styles.css"></link>
+    </head>
+    <body>
+        <div class="flex-container">
+            <h3>Calculator</h3>
+            <div class = "tb-flexcontainer">
+
+                <input id="number1" class="txt-number" type="number"></input>
+                <input id ="number2" class="txt-number" type="number"></input>
+            </div>   
+            
+            <div class="btn_flexcontainer">
+                <button id ="btn-add" class="btn-calc"> + </button>
+                <button id="btn-subtract" class="btn-calc"> - </button>
+                <button id="btn-multiply" class="btn-calc"> * </button>
+                <button id="btn-divide" class="btn-calc"> / </button>
+            </div>  
+
+            <div class="btnequal_flexcontainer">
+                <button id="btn-equal" class="btn"> = </button>
+                <button id="btn-clear" class="btn"> clear </button>
+            </div> 
+            <div class ="display_flexcontainer">
+                <p id ="result"></p>
+            </div>           
+        </div>  
+    </body>
+    <script src ="calculator.js"></script>
+    <script src ="dom.js"></script>
+</html>

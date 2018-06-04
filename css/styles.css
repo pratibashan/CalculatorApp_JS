@@ -1,0 +1,63 @@
+
+.flex-container {
+    background-color: grey;
+    width:350px;
+    height:350px;
+    display: flex;  
+    flex-direction: column;
+} 
+
+.flex-container h3 {
+    text-align:center;
+}
+.tb-flexcontainer {
+    
+    display: flex;
+    justify-content: space-around;    
+}
+.txt-number {
+    margin:20px;
+    width:100px;
+    height:30px;
+}
+.btn-flexcontainer {
+    
+    display: flex;   
+    justify-content: center;
+    
+}
+.btn-calc {
+    width: 40px;
+    height: 40px;
+    margin: 20px; 
+    font-size: 20px;   
+} 
+
+.btnequal_flexcontainer {
+    display: flex;   
+    justify-content: center;
+}
+
+.btn {
+    width: 60px;
+    height: 50px;
+    margin: 50px; 
+    font-size:20px;
+}
+
+display-flexcontainer {
+    
+    display: flex;   
+    justify-content: center;
+    
+}
+
+#result {
+    text-align: center;
+    margin:50px;
+    
+    /* padding:20px; */
+    background:white;
+    font-size: 20px;
+}
+
